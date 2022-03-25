@@ -12,11 +12,11 @@ char nama[50];
 void head()
 {
     cout << "----------------------------------------------------" << endl;
-    cout << "|                  WELCOME TO SPBU|                |" << endl;
+    cout << "|                  WELCOME TO SPBU	                |" << endl;
     cout << "----------------------------------------------------" << endl;
     cout << "----------------------------------------------------" << endl;
     cout << "|DAFTAR BENSIN :                                   |" << endl;
-    cout << "|1. Pertamax                                        |" << endl;
+    cout << "|1. Pertamax                                       |" << endl;
     cout << "|2. Pertalite                                      |" << endl;
     cout << "----------------------------------------------------" << endl;
 }
@@ -38,9 +38,13 @@ void cetakStruk()
     file << "|                      SPBU                        |" << endl;
     file << "----------------------------------------------------" << endl
          << endl;
-    file << "Nama Customer: " << nama << endl;
-    file << "Jumlah yang harus anda bayar untuk " << jumlahLiter << " liter adalah : " << harga << endl;
-    file << "\nTerimakasih";
+    file << "Nama Customer      : " << nama << endl;
+    file << "Jumlah Liter       : " << jumlahLiter << endl;
+    file << "Total Pembayaran   : " << harga << endl;
+    file << "\n----------------------------------------------------" << endl;
+    file << "|                 TERIMAKASIH ATAS                  |" << endl;
+    file << "|                   KUNJUNGANNYA                    |" << endl;
+    file << "----------------------------------------------------" << endl;
 }
 
 int main()
@@ -75,4 +79,3 @@ int main()
 
     return 0;
 }
-
