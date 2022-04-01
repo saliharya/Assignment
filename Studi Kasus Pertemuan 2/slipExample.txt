@@ -1,0 +1,19 @@
+-----------------------------------------------------
+|                 SLIP PEMBELIAN                    |
+|                     MAKANAN                       |
+-----------------------------------------------------
+
+Nama Customer      : Arya
+Item Yang Dipesan  :
+1. Ayam Geprek    @63000
+2. Ayam Goreng    @17000
+3. Udang Goreng   @0
+4. Cumi Goreng    @40000
+5. Ayam Bakar     @0
+Diskon            @22000
+Total Pembayaran   : 98000
+
+----------------------------------------------------
+|                 TERIMAKASIH ATAS                  |
+|                    PESANANNYA                     |
+-----------------------------------------------------
